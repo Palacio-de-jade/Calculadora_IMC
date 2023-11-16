@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Calculadora de IMC</title>
+    <!-- Seus outros meta tags e links de estilo aqui -->
+</head>
+
+<body style="background: rgb(128, 128, 128); font-family: Roboto, sans-serif;">
+    <!-- Seu HTML existente aqui -->
+
+    <div>
+        <form id="formulario">
+            <fieldset>
+                <legend>Calculo de IMC</legend>
+
+                <label for="kilos">Kilos:</label>
+                <input name="kilos" type="text">
+
+                <label for="centimetros">Centímetros:</label>
+                <input name="centimetros" type="text">
+
+                <label for="imc">IMC = </label>
+                <input name="imc" type="text" disabled="disabled">
+
+                <a href="#" onclick="calcular();">Calcular</a>
+
+                <!-- Adicionando um elemento para exibir mensagens -->
+                <div id="mensagem"></div>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- Incluindo o script externo -->
+    <script src="script.js"></script>
+
+    <!-- Seus scripts e links de script existentes aqui -->
+
+</body>
+
+</html>
