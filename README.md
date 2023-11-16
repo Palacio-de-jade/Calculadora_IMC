@@ -1,2 +1,2 @@
 # Calculadora_IMC
-Trabalho Senac
+Trabalho do Senac
